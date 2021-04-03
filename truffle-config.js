@@ -51,7 +51,7 @@ module.exports = {
           privateKeys: [process.env.PRIVATE_KEY_1],
           providerOrUrl: `https://ropsten.infura.io/v3/${process.env.INFURA_KEY}`,
         }),
-      network_id: 3,
+      network_id: '3',
       gas: 5500000,
       skipDryRun: true,
     },
